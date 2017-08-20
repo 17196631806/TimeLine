@@ -13,6 +13,8 @@
 		1D01D58E1F4964BA002DAD8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D01D58C1F4964BA002DAD8B /* Main.storyboard */; };
 		1D01D5901F4964BA002DAD8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D01D58F1F4964BA002DAD8B /* Assets.xcassets */; };
 		1D01D5931F4964BA002DAD8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D01D5911F4964BA002DAD8B /* LaunchScreen.storyboard */; };
+		1D01D59C1F4967D0002DAD8B /* ProcessTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D01D59B1F4967D0002DAD8B /* ProcessTableViewCell.m */; };
+		1D01D59E1F497881002DAD8B /* Simulator Screen Shot 2017年8月20日 15.55.07.png in Resources */ = {isa = PBXBuildFile; fileRef = 1D01D59D1F497881002DAD8B /* Simulator Screen Shot 2017年8月20日 15.55.07.png */; };
 		D384C22DCD1442622AAAF509 /* libPods-TimeLineProjects.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 839DEBE3BCD7A584AAF8A8A8 /* libPods-TimeLineProjects.a */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +29,9 @@
 		1D01D58F1F4964BA002DAD8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D01D5921F4964BA002DAD8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D01D5941F4964BA002DAD8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D01D59A1F4967D0002DAD8B /* ProcessTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProcessTableViewCell.h; sourceTree = "<group>"; };
+		1D01D59B1F4967D0002DAD8B /* ProcessTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProcessTableViewCell.m; sourceTree = "<group>"; };
+		1D01D59D1F497881002DAD8B /* Simulator Screen Shot 2017年8月20日 15.55.07.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot 2017年8月20日 15.55.07.png"; sourceTree = "<group>"; };
 		20DF632E90494FF1FD3C3EB9 /* Pods-TimeLineProjects.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLineProjects.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeLineProjects/Pods-TimeLineProjects.debug.xcconfig"; sourceTree = "<group>"; };
 		839DEBE3BCD7A584AAF8A8A8 /* libPods-TimeLineProjects.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TimeLineProjects.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4F937209A20FE214C515889 /* Pods-TimeLineProjects.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeLineProjects.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeLineProjects/Pods-TimeLineProjects.release.xcconfig"; sourceTree = "<group>"; };
@@ -69,10 +74,13 @@
 				1D01D5871F4964BA002DAD8B /* AppDelegate.m */,
 				1D01D5891F4964BA002DAD8B /* ViewController.h */,
 				1D01D58A1F4964BA002DAD8B /* ViewController.m */,
+				1D01D59A1F4967D0002DAD8B /* ProcessTableViewCell.h */,
+				1D01D59B1F4967D0002DAD8B /* ProcessTableViewCell.m */,
 				1D01D58C1F4964BA002DAD8B /* Main.storyboard */,
 				1D01D58F1F4964BA002DAD8B /* Assets.xcassets */,
 				1D01D5911F4964BA002DAD8B /* LaunchScreen.storyboard */,
 				1D01D5941F4964BA002DAD8B /* Info.plist */,
+				1D01D59D1F497881002DAD8B /* Simulator Screen Shot 2017年8月20日 15.55.07.png */,
 				1D01D5831F4964BA002DAD8B /* Supporting Files */,
 			);
 			path = TimeLineProjects;
@@ -166,6 +174,7 @@
 			files = (
 				1D01D5931F4964BA002DAD8B /* LaunchScreen.storyboard in Resources */,
 				1D01D5901F4964BA002DAD8B /* Assets.xcassets in Resources */,
+				1D01D59E1F497881002DAD8B /* Simulator Screen Shot 2017年8月20日 15.55.07.png in Resources */,
 				1D01D58E1F4964BA002DAD8B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -228,6 +237,7 @@
 				1D01D58B1F4964BA002DAD8B /* ViewController.m in Sources */,
 				1D01D5881F4964BA002DAD8B /* AppDelegate.m in Sources */,
 				1D01D5851F4964BA002DAD8B /* main.m in Sources */,
+				1D01D59C1F4967D0002DAD8B /* ProcessTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -388,6 +398,7 @@
 				1D01D5991F4964BA002DAD8B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
